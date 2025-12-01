@@ -1,6 +1,7 @@
 {
   "name": "gospel-assistant-web",
   "version": "0.1.0",
+  "type": "module",
   "homepage": "https://EthanMCT09.github.io/Christian-AI-helper",
   "private": true,
   "scripts": {
@@ -11,6 +12,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated",
+    "crypto-js": "^4.2.0",
+    "firebase": "^12.6.0",
+    "firebase-tools": "^14.26.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
